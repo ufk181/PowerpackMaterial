@@ -1,16 +1,17 @@
 <?php
+
 //--------------------------------------------------------------------------------------------------
 // This file automatically created and updated
 //--------------------------------------------------------------------------------------------------
 
 class MigrateGalleryCategories extends StaticAccess
 {
-	const table = 'gallery_categories';
+    const table = 'gallery_categories';
 
-	public static function getClassName()
-	{
-		return __CLASS__;
-	}
+    public static function getClassName()
+    {
+        return __CLASS__;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------
