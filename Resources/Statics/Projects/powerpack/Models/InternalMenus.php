@@ -1,16 +1,17 @@
 <?php
+
 //--------------------------------------------------------------------------------------------------
 // This file automatically created and updated
 //--------------------------------------------------------------------------------------------------
 
 class Menus extends StaticAccess
 {
-	const table = 'menus';
+    const table = 'menus';
 
-	public static function getClassName()
-	{
-		return __CLASS__;
-	}
+    public static function getClassName()
+    {
+        return __CLASS__;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------

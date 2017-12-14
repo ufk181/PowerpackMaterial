@@ -1,16 +1,17 @@
 <?php
+
 //--------------------------------------------------------------------------------------------------
 // This file automatically created and updated
 //--------------------------------------------------------------------------------------------------
 
 class SSH extends StaticAccess
 {
-	const config = 'Services:ssh';
+    const config = 'Services:ssh';
 
-	public static function getClassName()
-	{
-		return __CLASS__;
-	}
+    public static function getClassName()
+    {
+        return __CLASS__;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------

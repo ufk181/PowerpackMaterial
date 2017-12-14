@@ -1,16 +1,17 @@
 <?php
+
 //--------------------------------------------------------------------------------------------------
 // This file automatically created and updated
 //--------------------------------------------------------------------------------------------------
 
 class Email extends StaticAccess
 {
-	const config = 'Services:email';
+    const config = 'Services:email';
 
-	public static function getClassName()
-	{
-		return __CLASS__;
-	}
+    public static function getClassName()
+    {
+        return __CLASS__;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------

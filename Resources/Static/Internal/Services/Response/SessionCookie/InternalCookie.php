@@ -1,16 +1,17 @@
 <?php
+
 //--------------------------------------------------------------------------------------------------
 // This file automatically created and updated
 //--------------------------------------------------------------------------------------------------
 
 class Cookie extends StaticAccess
 {
-	const config = 'Services:cookie';
+    const config = 'Services:cookie';
 
-	public static function getClassName()
-	{
-		return __CLASS__;
-	}
+    public static function getClassName()
+    {
+        return __CLASS__;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------
